@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Můj první dokument s hymnou</title>
+    <style>
+        body { font-family: sans-serif; margin: 2rem; }
+        p { margin-bottom: 1rem; }
+        .red { color: red; }
+        p b.red { font-weight: normal; }
+        #anthem { margin-top: 2rem; padding: 1rem; border-top: 2px solid #ccc; }
+        #anthem h2 { margin-bottom: 0.5rem; }
+        #anthem pre { background: #f9f9f9; padding: 1rem; white-space: pre-wrap; }
+        .video { margin-top: 1rem; }
+    </style>
+    <script>
+        window.onload = function() {
+            alert("Pozor!");
+        };
+    </script>
+</head>
+
+<body>
+    <h1>Hello <b class="red">my</b> world!</h1>
+
+    <p>Zkoušíme psát svůj první <b class="red">HTML dokument</b> na <a href="https://kme.vse.cz/">KME VŠE</a>.</p>
+
+    <p class="red">Druhý odstavec.</p>
+
+    <!-- Sekce s českou hymnou -->
+    <section id="anthem">
+        <h2>Česká hymna</h2>
+        <pre>
+Kde domov můj, kde domov můj?
+Voda hučí po lučinách,
+bory šumí po skalinách,
+v sadě skví se jara květ,
+zemský ráj to na pohled!
+A to je ta krásná země,
+země česká domov můj,
+země česká domov můj!
+        </pre>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/CD-EF8d90gs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+</body>
+</html>
